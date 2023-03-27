@@ -13,6 +13,7 @@ module Element_Utilities
     real (prec) :: shape_function_spatial_derivatives_1D(3,1)
     real (prec) :: shape_function_spatial_derivatives_2D(9,2)
     real (prec) :: shape_function_spatial_derivatives_3D(27,3)
+    real (prec) :: shape_function_spacial_derivatives_corot(27,3)
 
     real (prec) :: vol_avg_shape_function_derivatives_1D(3,1)
     real (prec) :: vol_avg_shape_function_derivatives_2D(9,2)
