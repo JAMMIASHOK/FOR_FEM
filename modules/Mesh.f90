@@ -2,6 +2,7 @@ module Mesh
    use Types
 
 !  Data type for nodes   
+! Include Triangulation
    type node
       sequence
       integer :: flag                          ! Integer identifier

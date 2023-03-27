@@ -12,6 +12,7 @@ subroutine generate_node_numbers(element_start,element_end,include_constraints,n
     integer, intent(in) :: element_end
 
     logical, intent(in) :: include_constraints
+    logical, intent(out) :: status
 
     integer, intent(out) :: node_numbers(*)
     integer, intent(out) :: node_order_index(*)
